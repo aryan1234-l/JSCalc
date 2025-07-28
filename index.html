@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Calculator</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='styles.css'>
+    <script src='script.js'></script>
+</head>
+<body>
+    <textarea id='display' readonly></textarea>
+    <div class='button-grid'>
+        <button class='button' id='clear' onclick="update('c')">C</button>
+        <button class='button' id='backspace' onclick="update('x')">←</button>
+        <button class='button' id='divide' onclick="update('/')">/</button>
+        <button class='button' id='multiply' onclick="update('*')">*</button>
+        <button class='button' id='seven' onclick="update('7')">7</button>
+        <button class='button' id='eight' onclick="update('8')">8</button>
+        <button class='button' id='nine' onclick="update('9')">9</button>
+        <button class='button' id='subtract' onclick="update('-')">-</button>
+        <button class='button' id='four' onclick="update('4')">4</button>
+        <button class='button' id='five' onclick="update('5')">5</button>
+        <button class='button' id='six' onclick="update('6')">6</button>
+        <button class='button' id='add' onclick="update('+')">+</button>
+        <button class='button' id='one' onclick="update('1')">1</button>
+        <button class='button' id='two' onclick="update('2')">2</button>
+        <button class='button' id='three' onclick="update('3')">3</button>
+        <button class='button' id='zero' onclick="update('0')">0</button>
+        <button class='button' id='decimal' onclick="update('.')">.</button>
+        <button class='button' id='equals' onclick="update('=')">=</button>
+    </div>
+    
+</body>
+</html>
